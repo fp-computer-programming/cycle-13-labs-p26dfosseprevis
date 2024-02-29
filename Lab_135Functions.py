@@ -39,9 +39,9 @@ def add_nums(list):
         for num in list:
             new_list.append(num * inv)
     except:
-        print("ERROR: please give me a actual number and not text")    
+        return ("ERROR: please give me a actual number and not text")    
     finally:
-        print(f"passed list:{new_list}; User input:{inv}") #print
+        return (f"passed list:{new_list}; User input:{inv}") #print
 
 def score_shananagans(scores):
     """takes a list scores and returns that list after a lot of score_shananagans is done to it"""
